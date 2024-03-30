@@ -1,0 +1,46 @@
+.header{
+    padding: 200px 0px;
+    width: 100%;
+    background-image: url('../../images/hero.png');
+    background-position: center;
+    background-size: cover;
+}
+.header-container{
+    width: 80%;
+    margin: 20px auto 0px;
+    text-align: center ;
+}
+.header-text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding: 20px 0px;
+}
+.header-text-container h1{
+    font-size: 44px;
+}
+.header-text-container p{
+    font-size: 14px;
+    max-width: 650px;
+}
+h1 span{
+    color: crimson;
+}
+.explore-btn{
+    padding: 10px 16px;
+    margin: 14px 0px;
+    border: 2px solid crimson;
+    background-color: crimson;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.explore-btn:hover{
+    background-color: transparent;
+    color: crimson;
+}

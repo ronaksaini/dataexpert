@@ -1,0 +1,76 @@
+.formdata{
+    padding: 140px 0px;
+    width: 100%;
+    min-height: 100vh
+    
+    ;
+    background-image: url('../../images/hero.png');
+    background-position: center;
+    background-size: cover;
+}
+.formdata-container{
+    width: 85%;
+    margin: auto;
+}
+.formdata-container h2{
+    margin: 18px 0px;
+}
+.t-head-row{
+    background-color: rgb(255, 220, 227);
+    font-size: 12px;
+}
+.title-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+table{
+    min-width: 100%;
+    text-align: center;
+    font-size: 13px;
+    border-collapse: collapse;
+}
+tr{
+    margin-bottom: 10px;
+    /* background-color: red; */
+}
+td{
+    margin: 12px 0px;
+}
+.action-head{
+    width: 60px;
+    text-align: center;
+}
+.name-head{
+    width: 120px;
+    padding: 8px 12px;
+}
+.id-head{
+    width: 100px;
+}
+.jobTitle-head{
+    width: 180px;
+}
+.department-head{
+    width: 160px;
+}
+.base-head{
+    width: 100px;
+}
+.upi-head{
+    
+}
+.data{
+    /* background: #9effce; */
+    padding:12px;
+}
+td{
+    padding: 12px;
+}
+.delete-btn{
+    color: crimson;
+    cursor: pointer;
+}
+.delete-btn:hover{
+    transform: scale(1.1);
+}

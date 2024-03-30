@@ -1,0 +1,105 @@
+.form{
+    padding: 120px 0px;
+    width: 100%;
+    background-image: url('../../images/hero.png');
+    background-position: center;
+    background-size: cover;
+}
+.form-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+form{
+    min-width: 50%;
+}
+.input-container{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 24px 0px;
+    gap: 40px;
+}
+.input-container div{
+    /* flex-basis: 40%; */
+}
+.input-container-salary{
+    display: flex;
+    gap: 80px;
+}
+label{
+    display: block;
+    margin: 12px 0px;
+    font-size: 14px;
+}
+.input-field{
+    padding: 8px 16px;
+    width: 100%;
+    border: 1px solid crimson;
+    outline: none;
+}
+.name-field{
+    width:250px ;
+}
+.id-field{
+    /* width: 200px; */
+}
+
+.upi-id{
+    width: 250px;
+}
+select{
+    padding: 8px 16px;
+    border: 1px solid crimson;
+    outline: none;
+    color: #fff;
+    border-radius: 8px;
+    background-color: crimson;
+}
+.submit{
+    padding: 8px 14px;
+    border: 2px solid crimson;
+    background-color: crimson;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+input::placeholder{
+    color: rgb(168, 168, 168);
+}
+
+.notification{
+    position: fixed;
+    top: 140px;
+    right: 0px;
+}
+.notification-container{
+    padding: 10px 14px;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.alert{
+    font-size: 16px;
+    font-weight: 500;
+}
+.data-btn-container{
+    display: flex;
+    gap: 12px;
+}
+.submit:hover{
+    background-color: transparent;
+    color: crimson;
+
+}
+.view-all-btn{
+    padding: 8px 12px;
+    border: 2px solid  crimson;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 8px;
+}
